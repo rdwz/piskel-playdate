@@ -201,6 +201,7 @@
   };
 
   /**
+   * Trigger tool move on key up in order to acknowledge modifier changes.
    * @private
    */
   ns.DrawingController.prototype.onKeyup_ = function (event) {
