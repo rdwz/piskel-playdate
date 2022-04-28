@@ -1,15 +1,25 @@
-Piskel
-======
-
-[![Travis Status](https://api.travis-ci.org/piskelapp/piskel.png?branch=master)](https://travis-ci.org/piskelapp/piskel) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](https://gruntjs.com/)
+Piskel for Playdate
+===================
 
 Piskel is an easy-to-use sprite editor. It can be used to create game sprites, animations, pixel-art...
 It is the editor used in **[piskelapp.com](https://www.piskelapp.com)**.
 
-<img
-  src="https://screenletstore.appspot.com/img/95aaa0f0-37a4-11e7-a652-7b8128ce3e3b.png"
-  title="Piskel editor screenshot"
-  width="500">
+This fork:
+- can be used to build desktop apps of v15.0 on latest OS.
+- has Playdate-specific features
+  - get frame size from imagetable filename
+- has quality-of-life improvements
+  - ignore warnings
+
+## Building desktop apps
+
+1. clone this repo
+2. switch to branch https://github.com/gingerbeardman/piskel/tree/dev-1047
+3. `npm install grunt-cli -g`
+4. `npm install`
+5. `grunt desktop`
+
+----
 
 ## About Piskel
 
@@ -34,8 +44,10 @@ As well as some **icons** from the [Noun Project](https://thenounproject.com/) :
 
 Piskel supports the following browsers:
 * **Chrome** (latest)
-* **Firefox** (latest)
 * **Edge** (latest)
+* **Firefox** (latest)
+* **Opera** (latest)
+* **Safari** (latest)
 * **Internet Explorer** 11
 
 ### Mobile/Tablets
