@@ -4,20 +4,35 @@ Piskel for Playdate
 Piskel is an easy-to-use sprite editor. It can be used to create game sprites, animations, pixel-art...
 It is the editor used in **[piskelapp.com](https://www.piskelapp.com)**.
 
-This fork:
-- can be used to build desktop apps of v15.0 on latest OS.
+## This fork
+
+Read about the details on my blog: https://blog.gingerbeardman.com/2023/05/10/piskel-for-playdate/ 
+
+- can be used to build desktop apps of v15.2 on latest OS
+  - should build just fine for Windows/Linux/Mac (Intel)
+  - can also be used to build for Apple silicon
 - has Playdate-specific features
   - get frame size from imagetable filename
 - has quality-of-life improvements
-  - ignore warnings
+  - ignore warnings preference
+  - turns off animated preview by default
+  - different window size and positioning
+  - stops nagging if run in WebKit
+  - modern macOS icon
+- adds useful community improvements
+  - Outliner tool
+  - Dither modifier keys
+  - Keyboard cursor
+
+## Building a macOS arm64 desktop app
+
+1. download the latest unofficial osx-arm64 nwjs.app from [corwin-of-amber/nw.js/releases](https://github.com/corwin-of-amber/nw.js/releases)
+2. put `nwjs.app` in your build folder at `piskel/cache/0.63.1-normal/osx64/`
+3. in termnal do `grunt desktop-mac`
 
 ## Building desktop apps
 
-1. clone this repo
-2. switch to branch https://github.com/gingerbeardman/piskel/tree/dev-1047
-3. `npm install grunt-cli -g`
-4. `npm install`
-5. `grunt desktop`
+See main piskel repo.
 
 ----
 
