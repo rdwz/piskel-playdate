@@ -29,9 +29,14 @@ Read about the details on my blog: https://blog.gingerbeardman.com/2023/05/10/pi
 
 ## Building desktop apps
 
-- Windows: `npm run build:win`
-- macOS (Intel): `npm run build:mac`
-- macOS (ARM): `npm run build:mac-arm`
+Windows:
+- `npm run build:win`
+
+macOS (Intel)
+- `npm run build:mac`
+
+macOS (ARM)
+- `npm run build:mac-arm`
 
 ----
 
