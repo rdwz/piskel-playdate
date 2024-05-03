@@ -14,6 +14,7 @@ Read about the details on my blog: https://blog.gingerbeardman.com/2023/05/10/pi
 - has Playdate-specific features
   - get frame size from imagetable filename
 - has quality-of-life improvements
+  - save keyboard shortcut will export PNG
   - ignore warnings preference
   - turns off animated preview by default
   - different window size and positioning
