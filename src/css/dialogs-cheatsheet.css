@@ -222,6 +222,10 @@
   background-image: url(../img/icons/tools/tool-shape-select.png);
 }
 
+.cheatsheet-icon-tool-shift-index {
+  background-image: url(../img/icons/tools/tool-shift-index.png);
+}
+
 .cheatsheet-icon-tool-stroke {
   background-image: url(../img/icons/tools/tool-stroke.png);
 }
