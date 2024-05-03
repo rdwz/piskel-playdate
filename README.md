@@ -8,9 +8,9 @@ It is the editor used in **[piskelapp.com](https://www.piskelapp.com)**.
 
 Read about the details on my blog: https://blog.gingerbeardman.com/2023/05/10/piskel-for-playdate/ 
 
-- can be used to build desktop apps of v15.2 on latest OS
-  - should build just fine for Windows/Linux/Mac (Intel)
-  - can also be used to build for Apple silicon
+- can be used to build desktop apps on latest operating systems
+  - updated to future-proof dependencies and build process
+  - builds Windows and Mac (Universal)
 - has Playdate-specific features
   - get frame size from imagetable filename
 - has quality-of-life improvements
@@ -23,10 +23,15 @@ Read about the details on my blog: https://blog.gingerbeardman.com/2023/05/10/pi
   - Outliner tool
   - Dither modifier keys
   - Keyboard cursor
+  - Shift Palette Color Index Brush
+- adds new default Pencil tool
+  - draws in the opposite color to that of the start pixel
 
 ## Building desktop apps
 
-See main piskel repo.
+- Windows: `npm run build:win`
+- macOS (Intel): `npm run build:mac`
+- macOS (ARM): `npm run build:mac-arm`
 
 ----
 
