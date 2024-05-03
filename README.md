@@ -4,7 +4,11 @@ Piskel for Playdate
 Piskel is an easy-to-use sprite editor. It can be used to create game sprites, animations, pixel-art...
 It is the editor used in **[piskelapp.com](https://www.piskelapp.com)**.
 
-## This fork
+## Download offline builds
+
+See Releases: https://github.com/gingerbeardman/piskel-playdate/releases
+
+## About this fork
 
 Read about the details on my blog: https://blog.gingerbeardman.com/2023/05/10/piskel-for-playdate/ 
 
@@ -27,6 +31,8 @@ Read about the details on my blog: https://blog.gingerbeardman.com/2023/05/10/pi
   - Shift Palette Color Index Brush
 - adds new default Pencil tool
   - draws in the opposite color to that of the start pixel
+
+----
 
 ## Building desktop apps
 
@@ -74,9 +80,7 @@ Piskel supports the following browsers:
 
 There is no support for mobile.
 
-### Offline builds
-
-Offline builds are available. More details in the [dedicated wiki page](https://github.com/piskelapp/piskel/wiki/Desktop-applications).
+----
 
 ## Contributing ?
 
@@ -84,6 +88,8 @@ Help is always welcome !
 
 * **Issues** : Found a problem when using the application, want to request a feature, [open an issue](https://github.com/piskelapp/piskel/issues).
 * **Development** : Have a look at the [wiki](https://github.com/piskelapp/piskel/wiki) to set up the development environment
+
+----
 
 ## License
 
