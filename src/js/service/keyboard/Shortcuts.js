@@ -18,6 +18,7 @@
      */
     TOOL : {
       PEN : createShortcut('tool-pen', 'Pen tool', 'P'),
+      TOGGLE_PEN : createShortcut('tool-toggle-pen', 'Toggle pen tool', 'G'),
       MIRROR_PEN : createShortcut('tool-vertical-mirror-pen', 'Vertical mirror pen tool', 'V'),
       PAINT_BUCKET : createShortcut('tool-paint-bucket', 'Paint bucket tool', 'B'),
       COLORSWAP : createShortcut('tool-colorswap', 'Magic bucket tool', 'A'),

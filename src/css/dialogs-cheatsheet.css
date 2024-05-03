@@ -226,6 +226,10 @@
   background-image: url(../img/icons/tools/tool-stroke.png);
 }
 
+.cheatsheet-icon-tool-toggle-pen {
+  background-image: url(../img/icons/tools/tool-toggle-pen.png);
+}
+
 .cheatsheet-icon-tool-vertical-mirror-pen {
   background-image: url(../img/icons/tools/tool-vertical-mirror-pen.png);
 }

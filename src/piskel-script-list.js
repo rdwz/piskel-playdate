@@ -221,6 +221,7 @@
   "js/tools/drawing/BaseTool.js",
   "js/tools/drawing/ShapeTool.js",
   "js/tools/drawing/SimplePen.js",
+  "js/tools/drawing/TogglePen.js",
   "js/tools/drawing/Lighten.js",
   "js/tools/drawing/VerticalMirrorPen.js",
   "js/tools/drawing/Eraser.js",

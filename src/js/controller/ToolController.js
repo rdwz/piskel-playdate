@@ -4,11 +4,11 @@
   ns.ToolController = function () {
 
     this.tools = [
+      new pskl.tools.drawing.TogglePen(),
       new pskl.tools.drawing.SimplePen(),
       new pskl.tools.drawing.VerticalMirrorPen(),
-      new pskl.tools.drawing.PaintBucket(),
-      new pskl.tools.drawing.ColorSwap(),
       new pskl.tools.drawing.Eraser(),
+      new pskl.tools.drawing.ColorSwap(),
       new pskl.tools.drawing.Stroke(),
       new pskl.tools.drawing.Rectangle(),
       new pskl.tools.drawing.Circle(),
@@ -16,9 +16,10 @@
       new pskl.tools.drawing.selection.ShapeSelect(),
       new pskl.tools.drawing.selection.RectangleSelect(),
       new pskl.tools.drawing.selection.LassoSelect(),
-      new pskl.tools.drawing.Lighten(),
+      // new pskl.tools.drawing.Lighten(),
       new pskl.tools.drawing.DitheringTool(),
       new pskl.tools.drawing.ColorPicker(),
+      new pskl.tools.drawing.PaintBucket(),
       new pskl.tools.drawing.Outliner()
     ];
 
