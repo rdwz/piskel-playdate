@@ -9,6 +9,16 @@
   ns.TogglePen = function() {
     this.toolId = 'tool-toggle-pen';
     this.helpText = 'Pencil tool';
+    this.tooltipDescriptors = [
+      {
+        description: 'Classic Macintosh style Pencil. ' +
+        'Draws in the opposite color of the pixel the stroke begins on. ' +
+        'If the stroke begins on transparent, or the secondary color, it draws in the primary color. ' +
+        'If the stroke begins on the primary color, it draws in the secondary color. ' +
+        'This minimizes the need to switch between selected colors. ' +
+        'To draw in a single color you won\'t need to change colors or tools at all. '
+      },
+    ];
     this.shortcut = pskl.service.keyboard.Shortcuts.TOOL.TOGGLE_PEN;
 
     this.previousCol = null;
