@@ -36,6 +36,9 @@ Read about the details on my blog: https://blog.gingerbeardman.com/2023/05/10/pi
 
 ## Building desktop apps
 
+Install [Volta](https://volta.sh/)
+- This will find and download a compatible Node version.
+
 Windows
 - `npm run build:win`
 
