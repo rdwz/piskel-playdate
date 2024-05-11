@@ -96,6 +96,7 @@ Help is always welcome !
 
 ## License
 
+Copyright 2023 Matt Sephton
 Copyright 2017 Julian Descottes
 
 Licensed under the Apache License, Version 2.0 (the "License");

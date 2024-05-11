@@ -47,13 +47,14 @@ module.exports = function(grunt) {
   var integrationTestPaths = require('./test/casperjs/integration/IntegrationSuite.js').tests;
   var integrationTests = prefixPaths(integrationTestPaths, "test/casperjs/integration/");
 
-  var getConnectConfig = function (base, port, host, open) {
+  var getConnectConfig = function (base, port, host, open, livereload) {
     return {
       options: {
         port: port,
         hostname : host,
         base: base,
-        open: open
+        open: open,
+        livereload: livereload,
       }
     };
   };
@@ -98,9 +99,9 @@ module.exports = function(grunt) {
      */
 
     connect: {
-      prod: getConnectConfig('dest/prod', PORT.PROD, hostname, true),
-      test: getConnectConfig(['dest/dev', 'test'], PORT.TEST, hostname, false),
-      dev: getConnectConfig(['dest/dev', 'test'], PORT.DEV, hostname, 'http://' + hostname + ':' + PORT.DEV + '/?debug')
+      prod: getConnectConfig('dest/prod', PORT.PROD, hostname, true, false),
+      test: getConnectConfig(['dest/dev', 'test'], PORT.TEST, hostname, false, false),
+      dev: getConnectConfig(['dest/dev', 'test'], PORT.DEV, hostname, 'http://' + hostname + ':' + PORT.DEV + '/?debug', true)
     },
 
     watch: {
@@ -115,7 +116,9 @@ module.exports = function(grunt) {
         files: ['src/**/*.*'],
         tasks: ['build-dev'],
         options: {
-          spawn: false
+          spawn: false,
+          host: hostname,
+          livereload: true,
         }
       }
     },
